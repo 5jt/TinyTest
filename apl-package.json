@@ -15,9 +15,9 @@
   os_lin: 1,
   os_mac: 1,
   os_win: 1,
-  project_url: "https://github.com/sjt/TinyTest",
+  project_url: "https://github.com/5jt/TinyTest",
   source: "APLSource",
   tags: "operator,test",
   userCommandScript: "",
-  version: "0.1.0+0",
+  version: "0.1.0+1",
 }
