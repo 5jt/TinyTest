@@ -1,10 +1,11 @@
 TinyTest
 ========
 
-A minimal testing framework for Dyalog APL, consisting of two operators.
+A minimal testing framework for Dyalog APL, consisting of two operators and a function.
 
 -   `match` checks the result of a function is as expected
 -   `catch` checks a function signals an error as expected
+-   `report` prints how many errors were found
 
 Example test script
 -------------------
