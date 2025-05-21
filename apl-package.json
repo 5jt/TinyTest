@@ -19,5 +19,5 @@
   source: "APLSource",
   tags: "operator,test",
   userCommandScript: "",
-  version: "0.1.0+1",
+  version: "0.1.1+5",
 }

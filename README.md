@@ -33,7 +33,7 @@ This test script would be part of another namespace.
   DEBUG←0 ⍝ OFF
 ⍝ -------------
  ⍝ text should ignore errors and return its right argument
- 
+
  ec+←(text T.match'foo')'foo' ⍝ no dictionary
 
  dictionary←0 0 0
@@ -41,7 +41,6 @@ This test script would be part of another namespace.
 
  dictionary←testDictionary
  ec+←(text T.match'foo')'foo' ⍝ no default language
-
 
 ⍝ DYADIC
 ⍝ ======
@@ -54,11 +53,10 @@ This test script would be part of another namespace.
  ec+←'de'(text T.match'Kuh')'cow'
  ec+←'fr'(text T.match'foo')'foo'
 
-
 ⍝ MONADIC
 ⍝ =======
  ec+←(text T.match'vache')'cow'
  ec+←(text T.match'foo')'foo'
 
- ⎕←(1+×ec)⊃('All tests passed')((⍕ec),' test/s failed')
+ ⎕←report ec
 ```
